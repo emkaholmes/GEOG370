@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "mydorm",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -79.046223424245028, 35.911135838776566 ], [ -79.046075768219453, 35.911165736445724 ], [ -79.045903927155209, 35.910613143218121 ], [ -79.046064312148516, 35.910587369186061 ], [ -79.046223424245028, 35.911135838776566 ] ] ] ] } }
+]
+}
