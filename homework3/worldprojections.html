@@ -9,40 +9,40 @@
     <h1>In this project I learned how to display images in different projections</h1>
     
     <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <p>Using QGIS, I displayed the map in different projections by changing the EPSG (sometimes labeled as the ESRI on the maps). Different projections will preserve different aspects of the map, so knowing what you want to show in your map will help you choose which projection is best to use.</p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This conical map preserves distance but distorts shape and area so North and South are larger than the middle of the map.</h3>
     <a href="maps/4326.png">
     <img src="maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This map preserves shape but distorts size, making the corners of the map larger.</h3>
     <a href="maps/54043.png">
     <img src="maps/54043.png" alt="Aitoff" width='500px'>
     </a>
     <h2>Pseudo-Mercator Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This cylindrical map preserves shape, area, and distance close to the Equator but the further away, the more that is distorted so the shape and area of the Northern hemisphere and the South Pole are larger.</h3>
     <a href="maps/pseudomercator.png">
     <img src="maps/pseudomercator.png" alt="Pseudo-Mercator" width='500px'>
     </a>
     <h2>Sphere Winkel Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This map seems to have preserved shape but the area and distance gets distorted the further away from the Equator and the Prime Meridian the map goes.</h3>
     <a href="maps/sphere_winkel.png">
     <img src="maps/sphere_winkel.png" alt="Sphere Winkel" width='500px'>
     </a>
     <h2>Cylindrical Equal Area Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This cylindrical map preserves distance but stretches the North and the South, so the closer to the Equator the more shape and area have been preserved.</h3>
     <a href="maps/54034.png">
     <img src="maps/54034.png" alt="World Cylindrical Equal Area" width='500px'>
     </a>
     <h2>Equidistant Conical Projection</h2>
-    <h3>This map </h3>
+    <h3>This map preserves distance, primarily in the North, and stretches as it gets to the South Pole.</h3>
     <a href="maps/54027.png">
     <img src="maps/54027.png" alt="World Equidistant Conical" width='500px'>
     </a>
     <h2>North Pole Azimuthal Equidistant Projection</h2>
-    <h3>This map preserves distance from the North Pole, but as you get further away from the North Pole it becomes more distorted.</h3>
+    <h3>This azimuthal map preserves distance from the North Pole, but as you get further away from the North Pole it becomes more distorted.</h3>
     <a href="maps/102016.png">
     <img src="maps/102016.png" alt="North Pole Azimuthal Equidistant" width='500px'>
     </a>
@@ -52,7 +52,7 @@
     <img src="maps/28992.png" alt="Amersfoot/RD New" width='500px'>
     </a>
     <h2>MGI 1901/Balkans Zone 6 Projection</h2>
-    <h3>This map is made specifically for the Balkans Zone 6, so it preserves this area, but when zoomed out, everything looks distorted.</h3>
+    <h3>This map is made specifically for the Balkans Zone 6 so it preserves this area, but when zoomed out everything looks distorted.</h3>
     <a href="maps/3908.png">
     <img src="maps/3908.png" alt="MGI 1901/Balkans Zone 6" width='500px'>
     </a>
