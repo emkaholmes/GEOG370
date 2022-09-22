@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "timessquare_route",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -73.981929751722703, 40.76804448449775 ], [ -73.986547989543638, 40.761661361800179 ], [ -73.980895800317001, 40.759270987983768 ], [ -73.981803321694883, 40.75799622756761 ] ] ] } }
-]
-}
