@@ -10,25 +10,29 @@
     <h1>Homework 8: Geoprocessing Analysis</h1>
     <h2>By: Emma Holmes</h2>
     <h2>My Map</h2>
-    <img src="./homework8.png" alt="Health Sites in Bosnia and Herzegovina" width="750px">
+    <img src="./updated_homework8.png" alt="Health Sites in Bosnia and Herzegovina" width="750px">
     <br>
     <h3>
         I created this map to answer the question "How many health sites are in each city with a population over 
         100,000 in Bosnia and Herzegovina?"
-        <br> Health sites in this question is very broad and refers to hospitals, dentist offices, pharmacies, 
-        clinics, and doctor's offices.
-        <br> To answer this, I created a 15 kilometer buffer around each of the city points then used intersection 
+    </h3>
+    <small>Health sites in this question is very broad and refers to hospitals, dentist offices, pharmacies, 
+        clinics, and doctor's offices. </small>
+    <h4>
+        To answer this, I created a 15 kilometer buffer around each of the city points then used intersection 
         to get the healthsites that were only inside these buffers. I used intersection instead of clip so that the 
         data of which city the health site is in would not be lost. I then used queries to select and export the 
         health sites within each city to their own dataset.
         <br> These are the numbers of health sites within each city: (City - Population - Number of Health Sites)
-        <br>    Sarajevo - 275,524 - 156
-        <br>    Banja Luka - 199,191 - 90
-        <br>    Mostar - 163,067 - 45
-        <br>    Bijeljina - 114,663 - 5 
-        <br>    Tuzla - 110,979 - 59
-    </h3>
-    <p>Note: This population data is from the most recent census which was in 2013.</p>
+    </h4>
+    <ul>
+        Sarajevo - 275,524 - 156 <br>
+        Banja Luka - 199,191 - 90 <br>
+        Mostar - 163,067 - 45 <br>
+        Bijeljina - 114,663 - 5 <br>
+        Tuzla - 110,979 - 59 <br>
+    </ul>    
+    <small>Note: This population data is from the most recent census which was in 2013.</small>
     <h3>
         It's not surprising that Sarajevo has the most health sites considering it is the capitol of the country.
         And it's also not surprising that Banja Luka has the second most health sites since it is the capitol of 
