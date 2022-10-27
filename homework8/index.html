@@ -15,10 +15,28 @@
     <h3>
         I created this map to answer the question "How many health sites are in each city with a population over 
         100,000 in Bosnia and Herzegovina?"
+        <br> Health sites in this question is very broad and refers to hospitals, dentist offices, pharmacies, 
+        clinics, and doctor's offices.
         <br> To answer this, I created a 15 kilometer buffer around each of the city points then used intersection 
         to get the healthsites that were only inside these buffers. I used intersection instead of clip so that the 
         data of which city the health site is in would not be lost. I then used queries to select and export the 
-        health sites within each city to their own data. 
+        health sites within each city to their own dataset.
+        <br> These are the numbers of health sites within each city: (City - Population - Number of Health Sites)
+        <br>    Sarajevo - 275,524 - 156
+        <br>    Banja Luka - 199,191 - 90
+        <br>    Mostar - 163,067 - 45
+        <br>    Bijeljina - 114,663 - 5 
+        <br>    Tuzla - 110,979 - 59
+    </h3>
+    <p>Note: This population data is from the most recent census which was in 2013.</p>
+    <h3>
+        It's not surprising that Sarajevo has the most health sites considering it is the capitol of the country.
+        And it's also not surprising that Banja Luka has the second most health sites since it is the capitol of 
+        Republika Srpska.
+        <br> What is surprising is that Bijeljina has a higher population than Tuzla, but only 5 
+        reported health sites. This could be due to it being on the border with Serbia, perhaps there are health 
+        sites in Serbia that residents of Bijeljina go to.
+        <br> Something else that surprised me was that Tuzla had a higher amount of health sites than Mostar.
     </h3>
     <h2>Data Sources</h2>
     <a href="https://data.humdata.org/dataset/bosnia-and-herzegovina-healthsites"> Data for Health Sites in Bosnia and Herzegovina </a>
