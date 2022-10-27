@@ -1,0 +1,6 @@
+city,lat,lng,country,iso2,admin_name,capital,population,population_proper
+Sarajevo,43.8667,18.4167,Bosnia And Herzegovina,BA,"Bosnia and Herzegovina, Federation of",primary,275524,275524
+Banja Luka,44.7667,17.1833,Bosnia And Herzegovina,BA,"Srpska, Republika",admin,199191,199191
+Mostar,43.3494,17.8125,Bosnia And Herzegovina,BA,"Bosnia and Herzegovina, Federation of",minor,163067,104518
+Bijeljina,44.75,19.2167,Bosnia And Herzegovina,BA,"Srpska, Republika",minor,114663,114663
+Tuzla,44.5381,18.6761,Bosnia And Herzegovina,BA,"Bosnia and Herzegovina, Federation of",minor,110979,110979
